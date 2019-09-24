@@ -1,0 +1,42 @@
+img{
+	margin-left: 40%; 
+	padding-top: 20px;
+}
+
+form{
+	margin:0 auto !important;
+}
+
+input[type=text]{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+input[type=submit]{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+input[type=password]{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+h1{
+	margin:20px 0px; 
+	margin-left:-4%;
+	padding-left: 15px; 
+	color:#1F3F49;
+	text-shadow:0px 9px 6px #C77C8D;
+	font-size: 50px;
+	letter-spacing: 2px;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px){
+	#log_img{
+		margin:0 auto; 
+	}
+}

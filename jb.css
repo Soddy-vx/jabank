@@ -1,0 +1,128 @@
+/*左のブロック*/
+
+.user{
+	padding-left: 17%;
+}
+
+.logo{
+	width: 200px;
+	height: 200px;
+	padding-left: 10px;
+	
+}
+
+
+ul{
+	list-style: none;
+}
+li:first-child{
+	margin-top: 20%;
+}
+
+
+li{
+	margin: 10px 0;
+}
+
+/*左のブロック　終了*/
+
+/*中央ブロック*/
+.balance-section{
+	margin-top: 20px;
+}
+
+#cr{
+	border:solid white;
+	box-shadow: 7px 7px 12px 3px  rgba(120,161,81,0.25);
+}
+
+.transaction-section{
+	margin-top: 10%;
+}
+
+/*中央ブロック　終了*/
+
+/*右上ブロック*/
+.credit{
+	margin: 20px;
+	padding-left: 10px;
+	border:solid white;
+	box-shadow: 7px 7px 12px 3px  rgba(120,161,81,0.25);
+}
+.card-title{
+	margin: 20px;
+
+}
+.card-detail{
+	padding: 10px;
+}
+.invest{
+	width: 100%;
+}
+.invest h5{
+	margin: 20px;
+	width: 60%;
+	float: left;
+}
+.invest button{
+	width: 20%;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+/*右上ブロック　終了*/
+
+/*モバイル*/
+@media only screen and (max-width: 768px){
+	
+	.logo{
+		width: 200px;
+		margin-left: 20%; 
+	}
+	.user{
+		padding-left: 13%;
+	}
+	
+	li{
+		display: inline-block;
+		text-transform: uppercase;
+		
+		background: #ffffff;
+		padding: 5px;
+		border: 1px solid #ffffff !important;
+		border-radius: 5px;
+
+	}
+	li:first-child{
+		margin-top: 10px;
+	}
+	.invest button{
+		width: 75px;
+	    height: 30px;
+	    font-size: 13px;
+	    padding: 0;
+	    word-break: break-all;
+	    margin-top: 16px;
+	}
+	h5{
+		font-size: 14px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.invest h5{
+		margin-top: 16px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
