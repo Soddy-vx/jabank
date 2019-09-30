@@ -18,4 +18,4 @@ Check the transfer history if your transfer is successfully done.
 Created this from  scratch...
 
 ## Author
-[Sodai Hirano](https://github.com/tcnksm)
+[Sodai Hirano](https://github.com/Soddy-vx)
